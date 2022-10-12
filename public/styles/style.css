@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@200&display=swap');
+
+body{
+    font-family: Noto serif Telugu;
+    margin:0;
+    padding: 0;
+
+}
+
+.intro-text{
+    font-style: italic;
+}
+
+.full-screen-gallery .container-gallery,
+.full-screen-gallery .col-md-4, .col-md-8 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar {
+    display: flex;
+      color: white;
+      background-color: rgb(185, 157, 85);
+      padding: 14px 0 14px 0;
+      height: 40px;
+  }
+  
+  .navbar a {
+    color: whitesmoke;
+    text-decoration: underline; 
+    justify-items: space-around;  
+  }
+
+  .header {
+    height: 450px;
+    background-image: url("/images/mario-testino.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    position: relative;
+  }
+
+  .quote {
+    font-size: 1.5em;
+    position: absolute; 
+    left: 10%;
+    bottom: 15vh;
+    color: rgb(185, 157, 85);
+  }
+
+  .col-md-4{
+    float: left;
+  }
+
+  .col-sm-6{
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 2%;
+    
+  }
